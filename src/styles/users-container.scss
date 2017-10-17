@@ -1,3 +1,7 @@
+@font-face {
+  font-family: myFont;
+  src: url('../fonts/10854.otf');
+}
 .user-container{
   width: 250px;
   height: 320px;
@@ -30,4 +34,9 @@
 .photo{
   width: 250px;
   height: 250px;
+}
+.text{
+  font-family: myFont;
+  font-weight: bold;
+  font-size: large;
 }
