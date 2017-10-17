@@ -1,0 +1,33 @@
+.user-container{
+  width: 250px;
+  height: 320px;
+  background-color: white;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+
+  &__photo{
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+  }
+  &__buttons{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+  }
+}
+.button{
+  background: linear-gradient(to top, #fefcea, #7d80fa);
+  border-radius: 5px;
+}
+.button:hover{
+  cursor: pointer;
+  background: linear-gradient(to top, #fefcea, #f15722);
+}
+.photo{
+  width: 250px;
+  height: 250px;
+}

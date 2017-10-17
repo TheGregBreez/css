@@ -1,0 +1,1 @@
+import * as reader from './file-reader';

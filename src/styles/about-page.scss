@@ -1,0 +1,39 @@
+body{
+  background-color: antiquewhite;
+}
+
+@media screen and (max-width: 767px) {
+  .info-container{
+    width: 100%;
+  }
+}
+@media(max-width: 991px) {
+  .info-container{
+    width: 700px;
+  }
+}
+@media(max-width: 1199px) {
+  .info-container{
+    width: 900px;
+
+  }
+}
+
+.info-container{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 450px;
+  height: auto;
+  background-color: white;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+  
+  &__personal{
+    width: 50%;
+  }
+  &__date{
+    display: block;
+  }
+}

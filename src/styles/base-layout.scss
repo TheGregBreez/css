@@ -1,0 +1,35 @@
+body{
+  background-color: antiquewhite;
+}
+
+@media screen and (max-width: 767px) {
+  .main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media(max-width: 991px) {
+  .main{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+@media(max-width: 1199px) {
+  .main{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+
+.main{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
